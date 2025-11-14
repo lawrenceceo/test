@@ -19027,7 +19027,7 @@ const J1 = () => {
           n.pathname
         );
       }, [n.pathname]),
-      n.jsx(
+      g.jsx(
         <Router>
           <Routes>
             <Route path="/test/" element={<TestComponent />} />{" "}
