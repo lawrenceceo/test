@@ -1,4 +1,3 @@
-
 function Xg(n, o) {
   for (var i = 0; i < o.length; i++) {
     const l = o[i];
@@ -19037,12 +19036,16 @@ const J1 = () => {
               children: "404",
             }),
             g.jsx("p", {
-              className: "mb-4 text-xl text-muted-foreground",
-              children: "Oops! Page not found",
+              className: "mb-8 text-xl text-muted-foreground",
+              children: `The page "${n.pathname}" could not be found`,
             }),
-            g.jsx("a", {
-              href: "/test",
-              className: "text-primary underline hover:text-primary/90",
+            g.jsx("p", {
+              className: "mb-4 text-muted-foreground",
+              children: "This route does not exist. Please check the URL and try again.",
+            }),
+            g.jsx(Ht, {
+              to: "/",
+              className: "inline-block mt-6 px-6 py-2 bg-primary text-primary-foreground rounded hover:bg-primary/90 transition-colors",
               children: "Return to Home",
             }),
           ],
