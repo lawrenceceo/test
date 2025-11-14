@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+
 function Xg(n, o) {
   for (var i = 0; i < o.length; i++) {
     const l = o[i];
