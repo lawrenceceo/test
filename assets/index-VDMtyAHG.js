@@ -19041,7 +19041,7 @@ const J1 = () => {
               children: "Oops! Page not found",
             }),
             g.jsx("a", {
-              href: "/",
+              href: "/test",
               className: "text-primary underline hover:text-primary/90",
               children: "Return to Home",
             }),
