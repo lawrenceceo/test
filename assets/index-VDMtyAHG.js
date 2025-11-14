@@ -19027,14 +19027,6 @@ const J1 = () => {
           n.pathname
         );
       }, [n.pathname]),
-      g.jsx(
-        <Router>
-          <Routes>
-            <Route path="/test/" element={<TestComponent />} />{" "}
-            <Route path="*" element={<NotFoundPage />} />
-          </Routes>
-        </Router>
-      ),
       g.jsx("div", {
         className: "flex min-h-screen items-center justify-center bg-muted",
         children: g.jsxs("div", {
